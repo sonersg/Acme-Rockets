@@ -1,0 +1,15 @@
+/* npx tailwindcss init */
+/* npm init -y */
+/* npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch */
+/* npm i -D prettier-plugin-tailwindcss */
+/* npm run tailwind */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .section-min-height {
+    min-height: calc(100vh - 68px);
+  }
+}
